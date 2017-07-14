@@ -1,5 +1,5 @@
 {
-  "name": "vuex",
+  "name": "@picnic-software/vuex",
   "version": "2.3.1",
   "description": "state management for Vue.js",
   "main": "dist/vuex.common.js",

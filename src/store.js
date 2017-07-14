@@ -448,14 +448,14 @@ function unifyObjectStyle (type, payload, options) {
 }
 
 export function install (_Vue) {
-  if (Vue) {
-    if (process.env.NODE_ENV !== 'production') {
-      console.error(
-        '[vuex] already installed. Vue.use(Vuex) should be called only once.'
-      )
-    }
-    return
-  }
+  // if (Vue) {
+  //   if (process.env.NODE_ENV !== 'production') {
+  //     console.error(
+  //       '[vuex] already installed. Vue.use(Vuex) should be called only once.'
+  //     )
+  //   }
+  //   return
+  // }
   Vue = _Vue
   applyMixin(Vue)
 }
